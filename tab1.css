@@ -1,0 +1,40 @@
+.container .input input {
+    width: 35%;
+}
+
+.container .input button {
+    width: 20%;
+}
+
+.container .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .content #profile {
+    width: 90vw;
+    margin-left: 2.3rem;
+}
+
+.container .content #post {
+    width: 100vw;
+    margin-left: 0rem;
+}
+
+.container .content #post #post {
+    margin-top: 3rem;
+}
+
+.container .content #post #post .postContent .coverImg {
+    height: 46%;
+    width: 100%;
+}
+
+.container .content #post #post .postContent .coverImg img {
+    width: 100%;
+}
+
+.container .content #post #post .postContent .postDetail {
+    width: 100vw;
+    margin-left: 0rem;
+}

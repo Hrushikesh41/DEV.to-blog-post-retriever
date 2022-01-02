@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV Blog Retriever</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:360px)" href="phone1.css">
+    <link rel="stylesheet" media="screen and (max-width:415px)" href="phone2.css">
+    <link rel="stylesheet" media="screen and (width:768px)" href="tab1.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>DEV.to Blog Post Retriever</h1>
+        </div>
+        <div class="input">
+            <input type="text" id="username" placeholder="Enter Username">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div id="errorContent">
+            <div class="icon">
+
+            </div>
+            <div class="message">
+            </div>
+        </div>
+        <div class="content">
+            <div id="profile">
+                <div class="Profiledet">
+                    <div class="profileImg"></div>
+                    <div class="name"></div>
+                    <div class="userName"></div>
+                    <div class="summary"></div>
+                </div>
+            </div>
+            <div id="post">
+
+                <div class="postContent">
+                    <div class="coverImg"></div>
+                    <div class="postDetail">
+                        <div class="titleContent">
+                            <div class="title"></div>
+                            <div class="reaction"></div>
+                        </div>
+                        <div class="description"></div>
+                        <div class="author">
+                            <div class="authornName"></div>
+                            <div class="createdAt"></div>
+                            <div class="readPost"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/7ba7235e6a.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

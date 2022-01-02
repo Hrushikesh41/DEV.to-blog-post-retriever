@@ -1,0 +1,56 @@
+.container .input input {
+    width: 55%;
+}
+
+.container .input button {
+    width: 25%;
+}
+
+.container .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.container #errorContent {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.container #errorContent #errorContent {
+    padding: 0;
+}
+
+.container #errorContent #errorContent .message {
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.container .content #profile {
+    width: 90vw;
+    margin-left: 1.4rem;
+}
+
+.container .content #post {
+    width: 100vw;
+    margin-left: 0rem;
+}
+
+.container .content #post #post .postContent .coverImg {
+    height: 30%;
+    width: 100%;
+}
+
+.container .content #post #post .postContent .coverImg img {
+    width: 100%;
+}
+
+.container .content #post #post .postContent .postDetail {
+    width: 100vw;
+    margin-top: 1rem;
+    margin-left: 0rem;
+}
+
+.container .content #post #post {
+    margin-top: 3rem;
+}

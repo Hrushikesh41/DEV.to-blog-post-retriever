@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container .title {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container .input input {
+    margin-top: 50px;
+    width: 25%;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+.container .input input::placeholder {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.container .input button {
+    margin-top: 30px;
+    width: 10%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: white;
+}
+
+.container .input button:hover {
+    filter: invert(100%);
+}
+
+.container .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2.8rem;
+}
+
+.container .content #profile {
+    display: flex;
+    flex-direction: column;
+    width: 27vw;
+    /* margin-left: 2.8rem; */
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 100%;
+    margin-top: 1rem;
+}
+
+.container #errorContent {
+    border-radius: 30px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 530px;
+}
+
+.container #errorContent #errorContent {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 26px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container #errorContent #errorContent .message {
+    margin-top: 1.8rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.container .content #profil #profile {
+    margin-left: 2.5rem;
+}
+
+.container .content #profile .Profiledet {
+    width: 80%;
+}
+
+.container .content #profile .Profiledet .profileImg img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin: 1rem;
+}
+
+.container .content #profile .Profiledet .name {
+    margin-top: 1.8rem;
+}
+
+.container .content #profile .Profiledet .userName {
+    margin-top: 1.8rem;
+}
+
+.container .content #profile .Profiledet .summary {
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.container .content #post {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 68vw;
+    margin-left: 1.2rem;
+}
+
+.container .post .postCont {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+}
+
+.container .content #post .postDetail {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .content #post .postDetail .titleContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .content #post .postDetail .author {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .content #post #post {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 8px black;
+}
+
+.container .content #post #post .postContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .content #post #post .postContent .coverImg {
+    height: 100%;
+    width: 300px;
+}
+
+.container .content #post #post .postContent .coverImg img {
+    width: 300px;
+    height: 100%;
+}
+
+.container .content #post #post .postContent .postDetail {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: 1.2rem;
+}
+
+.container .content #post #post .postContent .postDetail .titleContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+    width: 100%;
+}
+
+.container .content #post #post .postContent .postDetail .description {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.container .content #post #post .postContent .postDetail .author {
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+.container .content #post #post .postContent .postDetail .author .createdAt {
+    margin-left: 2rem;
+}
+
+.container .content #post #post .postContent .postDetail .readPost {
+    margin-bottom: 10px;
+}
+
+.container .content #post #post .postContent .postDetail .readPost a {
+    text-decoration: none;
+}
+
+.container .content #post #post .postContent .postDetail .author .reaction {
+    margin-left: 2rem;
+}

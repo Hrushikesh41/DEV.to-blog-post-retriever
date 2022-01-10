@@ -7,3 +7,6 @@ Technology Used :
 3. JavaScript
 
 It is Completely responsive website. 
+
+Link for the same : 
+https://hrushikesh41.github.io/DEV.to-blog-post-retriever/

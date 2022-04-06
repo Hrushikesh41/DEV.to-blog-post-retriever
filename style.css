@@ -59,6 +59,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 2.8rem;
+    justify-content: center;
 }
 
 .container .content #profile {

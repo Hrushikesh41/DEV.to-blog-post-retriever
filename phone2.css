@@ -34,6 +34,9 @@
 .container .content #post {
     width: 100vw;
     margin-left: 0rem;
+    display: flex;
+    justify-content: center;
+    width: 95%;
 }
 
 .container .content #post #post .postContent .coverImg {
